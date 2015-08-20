@@ -1,0 +1,19 @@
+AllCops:
+  Include:
+    - Gemfile
+    - Rakefile
+  Exclude:
+    - vendor/*
+    - examples/refactorings/rails/where_first/sample_controller.rb
+
+StringLiterals:
+  Enabled: false
+
+LineLength:
+  Max: 99
+
+Documentation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 16
